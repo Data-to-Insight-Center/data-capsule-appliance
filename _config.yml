@@ -1,9 +1,8 @@
 title: Data Capsule Appliance
-#baseurl: "/home"
-#url: "https://data-to-insight-center.github.io"
 
-#baseurl: ""
-#url: "http://localhost"
+# For development purposes. Please make sure this is commented out before committing. 
+#baseurl: "/data-capsule-appliance"
+
 
 # Build settings
 markdown: kramdown
