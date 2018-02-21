@@ -4,7 +4,7 @@ title: Customizing
 permalink: /customizing/
 ---
 
-## Incorperating the DC system for your collection 
+## Incorporating the DC system for your collection 
 
 With a verified setup done using the [Getting Started Guide](/data-capsule-appliance/gettingStarted/), these are the minimal steps required to deploy the system to be used
 with your collection. 
