@@ -12,6 +12,11 @@ Clone the [Data Capsule Appliance Guest repo](https://github.com/Data-to-Insight
 To setup the DC Host we use Ansible Scripts. Please follow the instructions in the [Data Capsule Appliance Host repo](https://github.com/Data-to-Insight-Center/Data-Capsule-Appliance-Host "Data Capsule Appliance Host repo"){:target="_blank"}. 
 
 #### 3. Test creation of the Data Capsule
+
+*Note To Test the setup, first you need to login to the Ansible provisioned host as the `dc-host` user. 
+All the DC maintenance would be done via the `dc-user`. The way it's setup, the `dc-host` user should not need sudo passwords.
+[The default password for the root user is 'test'.](https://github.com/Data-to-Insight-Center/Data-Capsule-Appliance-Host/blob/master/group_vars/all#L12 "Default dc-host password"){:target="_blank"}*
+
 Now that you have a working DC host setup and a DC Image, we can begin to test if it all works.
 
 The instructions below assume that the created DC image is at 
