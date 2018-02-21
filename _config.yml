@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+title: Data Capsule Appliance
+baseurl: ""
+url: "http://localhost:4000"
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
